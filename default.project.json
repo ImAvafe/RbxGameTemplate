@@ -1,0 +1,40 @@
+{
+  "name": "RbxTemplate",
+  "globIgnorePaths": ["src/Client/UI"],
+  
+  "tree": {
+    "$className": "DataModel",
+
+    "ReplicatedStorage": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/Shared",
+      "Packages": {
+        "$path": "Packages"
+      },
+      "ExtPackages": {
+        "$path": "ExtPackages"
+      }
+    },
+    "ServerStorage": {
+      "$ignoreUnknownInstances": true,
+      "ExtPackages": {
+        "$path": "ExtServerPackages"
+      }
+    },
+    "ServerScriptService": {
+      "$ignoreUnknownInstances": true,
+      "$path": "src/Server"
+    },
+    "StarterPlayer": {
+      "$ignoreUnknownInstances": true,
+      "StarterPlayerScripts": {
+          "$ignoreUnknownInstances": true,
+          "$path": "src/Client",
+          "UI": {
+            "$path": "src/Client/UI",
+            "$ignoreUnknownInstances": true
+          }
+      }
+    }
+  }
+}
