@@ -1,11 +1,11 @@
 [package]
-name = "avafe/rbxtemplate"
+name = "donotpublish/rbxtemplate"
 version = "0.1.0"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
+private = true
 
 [dependencies]
-Knit = "sleitnick/knit@^1.4.7"
-Component = "sleitnick/component@^2.4.6"
+Knit = "sleitnick/knit@^1.7.0"
+Component = "sleitnick/component@^2.4.8"
 Loader = "sleitnick/loader@^2.0.0"
-RemoteComponent = "encodedvenom/remotecomponent@^1.0.2"
