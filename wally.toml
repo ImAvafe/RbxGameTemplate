@@ -6,10 +6,10 @@ realm = "shared"
 private = true
 
 [dependencies]
-Knit = "sleitnick/knit@^1.7.0"
-Component = "sleitnick/component@^2.4.8"
-RemoteComponent = "encodedvenom/remotecomponent@^1.0.2"
-Loader = "sleitnick/loader@^2.0.0"
-Fusion = "elttob/fusion@^0.2.0"
+Knit = "sleitnick/knit@1.7.0"
+Component = "sleitnick/component@2.4.8"
+RemoteComponent = "encodedvenom/remotecomponent@1.0.2"
+Loader = "sleitnick/loader@2.0.0"
+Fusion = "elttob/fusion@0.2.0"
 RagdollSystem = "leostormer/ragdoll-system@0.3.3"
-NeoHotbar = "imavafe/neohotbar@^1.0.0"
+NeoHotbar = "imavafe/neohotbar@1.0.0"
