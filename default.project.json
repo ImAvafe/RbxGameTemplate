@@ -1,7 +1,7 @@
 {
   "name": "RbxTemplate",
   "globIgnorePaths": ["src/Client/UI"],
-  
+
   "tree": {
     "$className": "DataModel",
 
@@ -28,12 +28,8 @@
     "StarterPlayer": {
       "$ignoreUnknownInstances": true,
       "StarterPlayerScripts": {
-          "$ignoreUnknownInstances": true,
-          "$path": "src/Client",
-          "UI": {
-            "$path": "src/Client/UI",
-            "$ignoreUnknownInstances": true
-          }
+        "$ignoreUnknownInstances": true,
+        "$path": "src/Client"
       }
     }
   }
