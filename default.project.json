@@ -1,6 +1,5 @@
 {
   "name": "RbxTemplate",
-  "globIgnorePaths": ["src/Client/UI"],
 
   "tree": {
     "$className": "DataModel",
